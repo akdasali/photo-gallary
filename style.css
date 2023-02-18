@@ -1,0 +1,193 @@
+/* google font */
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Sofia+Sans&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+    /* background-color: #E6E6E6;
+    color: #101010;
+    margin: 0;
+    overscroll-behavior: none;
+    font-size: 81.25%; */
+    
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+/* ------------
+navbar style start
+----------------------- */
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left{
+    font-size: 1.5rem;
+}
+.nav-right{
+    display: flex;
+    font-size: 1.5rem;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+}
+/* ------------
+navbar style ends
+----------------------- */
+
+/* -----------
+description and camera starts
+------------------ */
+.des-and-camera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.button-and-arrow{
+    display: flex;
+    
+}
+.des-button{
+    background: #E02C6D;
+    border-radius: 41px;
+    color: white;
+    Padding: 10px 24px;   
+}
+.fa-solid{
+    
+    margin-left: 10px;
+}
+.descrip h1{
+    font-size: 2rem;
+}
+.camera{
+    background-image: url("images/Circle\ design.svg");
+    padding: 12px;
+    background-repeat: no-repeat;
+    
+}
+/* -----------
+description and camera ends
+------------------ */
+
+
+/*---------
+ company's logo starts
+ ---------------- */
+
+.company-and-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 76px 243px;
+    border-bottom: 2px solid #d8d3d1;
+    border-top: .1px solid #d8d3d1;
+    width: 69%;
+    /* margin: 0 auto; */
+}
+
+
+/*----------------
+ company's logo ends
+ -----------*/
+
+ /*--------------
+  photo gallary starts
+  ---------*/
+  .heading{
+    display: flex;
+    justify-content: center;
+  }
+  .photo-gallary{
+    display: flex;
+   
+    /* width: 1047px;
+    height: 1662px;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    justify-content: space-around;
+    /* background: #AAAAAA; */
+    /* width: 1047px; */
+    /* height: 1662px; */
+    
+    
+  }
+ .one-to-nine-parent{
+    justify-content: center;
+    left: 196px;
+    top: 935px;
+ }
+ .photo-one,.photo-two,.photo-three,.photo-four,.photo-five,.photo-six,.photo-seven,.photo-eight,.photo-nine{
+    box-shadow: 1px 10px 6px 5px #888888;
+    padding: 22px
+ }
+  
+  .photo-one-nine{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 41px;
+  }
+ .star-and-rating{
+    display: flex;
+    align-items: center;
+    margin-left: -12px;
+ }
+ .star-full,.fa-star-half{
+    color: #FB8200;
+ }
+ .fa-star{
+    /* font-size: 12px; */
+}
+
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 16px;
+
+}
+ /*--------------
+  photo gallary ends
+  ---------*/
+
+   /*--------------
+  feature starts
+  ---------*/
+  .feature{
+    display: flex;
+    align-items: center;
+    margin: 0 267px;
+  }
+
+  .left{
+    margin-right: 141px;
+  }
+  .Join-now{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  /*--------------
+  feature ends
+  ---------*/
+
+ /* footer starts */
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #0a0826;
+        color: white;
+        margin-top: 100px;
+    }
+    .media{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+/* footer ends */
+
+

@@ -95,13 +95,13 @@ description and camera ends
  -----------*/
 
  /*--------------
-  photo gallary starts
+  photo gallery starts
   ---------*/
   .heading{
     display: flex;
     justify-content: center;
   }
-  .photo-gallary{
+  .photo-gallery{
     display: flex;
    
     /* width: 1047px;
@@ -150,7 +150,7 @@ description and camera ends
 
 }
  /*--------------
-  photo gallary ends
+  photo gallery ends
   ---------*/
 
    /*--------------
@@ -190,4 +190,40 @@ description and camera ends
     }
 /* footer ends */
 
-
+/* responsive starts */
+@media only screen and (max-width: 700px) {
+     .nav-parent{
+      /* display: flex; */
+      flex-direction: column;  
+    }
+    .nav-right a {
+        font-size: 17px;
+    }
+    .nav-right{
+        margin-left: 8px;
+    }
+    .des-and-camera{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .company-and-logo{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 5px 0;
+        margin-left: 154px;
+    }
+    .photo-gallery{
+        display: flex;
+        flex-direction: column;
+    }
+    .feature{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-para-button{
+       
+        flex-direction: column;
+        margin-left: -191px;
+    }
+  }
